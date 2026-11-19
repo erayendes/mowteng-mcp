@@ -8,7 +8,7 @@ Google Search Console, Bing Webmaster Tools, Yandex Webmaster and IndexNow in yo
 
 mowteng is a hosted remote MCP server. Add one URL to Claude, ChatGPT, GitHub Copilot, Gemini or any MCP client, sign in with Google, and ask about your sites in plain language.
 
-> This repository holds documentation only. mowteng runs at `https://mowteng.app/mcp`; there is nothing to install or build.
+> This repository holds documentation and the Antigravity plugin manifest only (`.antigravity-plugin/`, `mcp_config.json`, `assets/`). mowteng is a hosted, proprietary service at `https://mowteng.app/mcp`; its source code is not published here, and there is nothing to build.
 
 ## Connect
 
@@ -28,6 +28,12 @@ mowteng is a hosted remote MCP server. Add one URL to Claude, ChatGPT, GitHub Co
 
 ```bash
 claude mcp add --transport http mowteng https://mowteng.app/mcp
+```
+
+**Antigravity:**
+
+```bash
+agy plugin install https://github.com/erayendes/mowteng-mcp
 ```
 
 **Claude, ChatGPT, Gemini:** add `https://mowteng.app/mcp` as a custom connector, then sign in with Google.

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "mowteng",
+  "displayName": "mowteng",
+  "version": "1.0.0",
+  "description": "Google Search Console, Bing Webmaster Tools and Yandex Webmaster in Antigravity: search performance, indexing checks, sitemaps, IndexNow and SEO analyses.",
+  "logo": "assets/logo.svg",
+  "suggestedPrompts": [
+    "Which pages on example.com lost the most Google clicks in the last 28 days?",
+    "Show queries where I rank 11-20 with the most impressions, and the page ranking for each.",
+    "Check the URLs in https://example.com/sitemap.xml and list the ones Google hasn't indexed."
+  ],
+  "author": {
+    "name": "Eray Endes",
+    "url": "https://mowteng.app"
+  },
+  "homepage": "https://mowteng.app/integrations/antigravity",
+  "license": "Proprietary",
+  "keywords": ["seo", "google search console", "bing webmaster tools", "yandex webmaster", "indexnow", "sitemaps"]
+}
