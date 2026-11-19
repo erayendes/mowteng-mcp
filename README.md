@@ -57,6 +57,15 @@ On first use you sign in with Google and pick the Search Console access to grant
 
 Write tools (adding a property, submitting or deleting sitemaps, submitting URLs) are annotated, and the destructive ones are marked so your client asks before running them. Bing and Yandex support is experimental.
 
+## Guides
+
+- [Google Search Console MCP server](https://mowteng.app/google-search-console-mcp): what mowteng does with Search Console data
+- [Bing Webmaster Tools MCP server](https://mowteng.app/bing-webmaster-tools-mcp)
+- [Yandex Webmaster MCP server](https://mowteng.app/yandex-webmaster-mcp)
+- [IndexNow MCP server](https://mowteng.app/indexnow-mcp) and the free [IndexNow key generator](https://mowteng.app/indexnow-key-generator)
+- [Bulk URL inspection](https://mowteng.app/analyses/bulk-url-inspection) and [how to inspect 10,000 URLs on a 2,000-a-day quota](https://mowteng.app/blog/inspect-10000-urls-url-inspection-quota)
+- [Setup guides](https://mowteng.app/guides) and [ready-made prompts](https://mowteng.app/prompts)
+
 ## Data and privacy
 
 Search data is fetched live for each request and never stored. mowteng keeps only your encrypted connections and subscription status. You can delete your account and revoke access at any time from the link `mowteng_sources` gives you.
