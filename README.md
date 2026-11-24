@@ -4,6 +4,8 @@
 
 # mowteng
 
+[![mowteng MCP connector](https://glama.ai/mcp/connectors/app.mowteng/mowteng/badges/score.svg)](https://glama.ai/mcp/connectors/app.mowteng/mowteng)
+
 Google Search Console, Bing Webmaster Tools, Yandex Webmaster and IndexNow in your AI assistant, with live SEO analyses.
 
 mowteng is a hosted remote MCP server. Add one URL to Claude, ChatGPT, GitHub Copilot, Gemini or any MCP client, sign in with Google, and ask about your sites in plain language.
